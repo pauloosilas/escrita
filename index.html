@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Treino de Escrita - Multilíngue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>📝 Prática de Escrita</h1>
+            
+            <div class="language-selector">
+                <label for="langSelect">Escolha o idioma:</label>
+                <select id="langSelect" onchange="renderizarFrases()">
+                    <option value="ingles">Inglês</option>
+                    <option value="italiano">Italiano</option>
+                    <option value="espanhol">Espanhol</option>
+                </select>
+            </div>
+        </header>
+
+        <div id="app"></div>
+
+        <button id="refresh" onclick="renderizarFrases()">🔄 Sortear Novas Frases</button>
+    </div>
+
+    <script src="bancodedados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
