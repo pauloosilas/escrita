@@ -35,7 +35,9 @@ const basededados = {
 { "frase": "Ela sugeriu uma abordagem diferente.", "traducao": "She suggested a different approach." },
 { "frase": "Nós precisamos alinhar nossas expectativas.", "traducao": "We need to align our expectations." },
 { "frase": "Ele ficou satisfeito com o resultado final.", "traducao": "He was satisfied with the final result." },
-{ "frase": "comi, como, comerei", "traducao": "ate, eat, will eat" },
+],
+"verbosIngles":[
+    { "frase": "comi, como, comerei", "traducao": "ate, eat, will eat" },
 { "frase": "fui, vou, irei", "traducao": "went, go, will go" },
 { "frase": "fiz, faço, farei", "traducao": "did, do, will do" },
 { "frase": "vi, vejo, verei", "traducao": "saw, see, will see" },
@@ -65,8 +67,8 @@ const basededados = {
 { "frase": "expliquei, explico, explicarei", "traducao": "explained, explain, will explain" },
 { "frase": "aceitei, aceito, aceitarei", "traducao": "accepted, accept, will accept" },
 { "frase": "terminei, termino, terminarei", "traducao": "finished, finish, will finish" }
-],
 
+],
 
     "italiano": [
         { "frase": "O céu está muito bonito hoje.", "traducao": "Il cielo è molto bello oggi." },
